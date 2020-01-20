@@ -11,3 +11,53 @@ h1 {
     margin-left: -1.243%;
     align-items: right;
 }
+
+.info {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+nav ul {
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    text-align: left;
+    color: white;
+    
+}
+.foot {
+    color: white;
+    background-color: black;
+    font-size: 1.3em;
+    border: 2em;
+    margin-top: 34.5em;
+}

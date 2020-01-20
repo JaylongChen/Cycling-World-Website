@@ -46,7 +46,7 @@ header {
 
 .blue-container{
     background: rgb(44, 202, 202);
-    margin-top: 29%; 
+    margin-top: 35%; 
     list-style-type: none;   
     padding: 1em;
     border-top-right-radius: 40px;
@@ -148,13 +148,14 @@ header {
     .blue-container {
         margin-top: 19%;
     }
-    .blue-container ul {
+
+    .bikes {
         display: flex;
-        margin-top: -2%;
-        align-items: center;
-        
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;  
         
     }
+
     .blue-container ul li img{
         width: 10%;
         align-items: center;
@@ -163,6 +164,13 @@ header {
 @media only screen and (min-width: 1024px) {
     .blue-container {
         margin-top: 9%;
+    }
+    .blue-container ul {
+        display: flex;
+        
+        margin-top: -2%;
+        
+        
     }
 
 }
