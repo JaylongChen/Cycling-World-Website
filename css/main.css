@@ -86,8 +86,8 @@ header {
 
 .blue-container ul li {
     margin-bottom: 1em;
-    margin-left: 3%;
-    margin-right: 4%;  
+    margin-left: 2.9%;
+    margin-right: 2.5%;  
     list-style-type: none;
     align-items: center;
 }
@@ -105,7 +105,10 @@ header {
 .bg-container ul li p{
     margin-top: -2em;
 }
-
+.fat {
+    fill-opacity: 0;
+    background-color: rgb(44, 202, 202);
+}
 .head ul{
     position: fixed;
     width: 25.1%;
@@ -148,6 +151,7 @@ header {
     background-color: rgb(184, 182, 182);
 }
 
+
 @media only screen and (min-width: 650px) {
 
     .blue-container {
@@ -157,12 +161,11 @@ header {
     .bikes {
         display: flex;
         -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;  
-        
+        flex-wrap: wrap;          
     }
 
     .blue-container ul li img{
-        width: 10%;
+        width: 5%;
         align-items: center;
     }
 }
