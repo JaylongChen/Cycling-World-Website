@@ -84,6 +84,9 @@ header {
     background-color: rgb(146, 141, 141);
 }
 
+.email {
+    margin-top: 100px;
+}
 
 @media only screen {
     .alpe {

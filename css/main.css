@@ -12,12 +12,12 @@ p, blockquote {
 }
 
 h1 {
+    width: 100%;
     background-color: transparent;
     position: absolute;
-    margin-left: 10%;
     text-align: center;
     font-size: 1.5em;
-    padding: 2em;
+    margin-top: 5%;
 }
 
 header {
@@ -45,24 +45,25 @@ header {
 }
 
 .blue-container{
-    background: rgb(44, 202, 202);
-    margin-top: 35%; 
+    background: rgb(48, 49, 49);
+    margin-top: 5%; 
     list-style-type: none;   
-    padding: 1em;
-    border-top-right-radius: 40px;
-    transform: skewY(2deg);
+    
+
 }
 
 .intro {
     text-align: left;
-    transform: skewY(-2deg);
+    
     font-size: 1.4em;
 }
+
+
 .blue-container:before {
     content: "";
     width: 40px;
     height: 40px;
-    background-color: rgb(44, 202, 202);
+    background-color: rgb(49, 49, 49);
     position: absolute;
     top: -39px;
     left: 0;
@@ -81,19 +82,22 @@ header {
 }
 
 .blue-container ul{
-    transform: skewY(-2deg);
+    
 }
 
 .blue-container ul li {
     margin-bottom: 1em;
-    margin-left: 2.9%;
-    margin-right: 2.5%;  
+    
+    
     list-style-type: none;
     align-items: center;
 }
 
 .blue-container ul li p {
     margin-top: -2em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
 }
 
 .bg-container {
@@ -105,10 +109,7 @@ header {
 .bg-container ul li p{
     margin-top: -2em;
 }
-.fat {
-    fill-opacity: 0;
-    background-color: rgb(44, 202, 202);
-}
+
 .head ul{
     position: fixed;
     width: 25.1%;
@@ -152,10 +153,11 @@ header {
 }
 
 
-@media only screen and (min-width: 650px) {
+
+@media only screen and (min-width: 450px) {
 
     .blue-container {
-        margin-top: 19%;
+        margin-top:9%;
     }
 
     .bikes {
@@ -165,13 +167,14 @@ header {
     }
 
     .blue-container ul li img{
-        width: 5%;
+        height: 580px;
+        width: 285px;
         align-items: center;
     }
 }
 @media only screen and (min-width: 1024px) {
     .blue-container {
-        margin-top: 9%;
+        margin-top: 6%;
     }
     .blue-container ul {
         display: flex;
