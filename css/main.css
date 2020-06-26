@@ -36,6 +36,50 @@ header {
 .hide-mobile {
     display: none;    
 }
+
+
+.head ul{
+    position: fixed;
+    width: 25.1%;
+    top: 0;
+    right: 0;
+    text-align:left;
+    background: rgb(75, 74, 74);
+    height: 100%;
+    z-index: 10;
+    padding-top: 3em;
+    padding-left: 0%;
+}
+.head ul li{
+    align-self:left;
+
+}
+.head ul li a {
+    
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    width: 100%;    
+    background-color: rgb(85, 90, 90);
+}
+
+.head ul li a:hover {
+    background-color: rgb(146, 141, 141);
+}
+
+.close-icon {
+    width: 20px;
+    height: 20px;
+    background-color:rgb(75, 74, 74);
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    background-color: rgb(184, 182, 182);
+}
+
 .menu {
     width: 40px;
     height: 40px;
@@ -115,48 +159,6 @@ header {
 }
 .bg-container ul li p{
     margin-top: -2em;
-}
-
-.head ul{
-    position: fixed;
-    width: 25.1%;
-    top: 0;
-    right: 0;
-    text-align:left;
-    background: rgb(75, 74, 74);
-    height: 100%;
-    z-index: 10;
-    padding-top: 3em;
-    padding-left: 0%;
-}
-.head ul li{
-    align-self:left;
-
-}
-.head ul li a {
-    
-    color: white;
-    padding: 1em;
-    text-decoration: none;
-    text-align: left;
-    display: block;
-    width: 100%;    
-    background-color: rgb(85, 90, 90);
-}
-
-.head ul li a:hover {
-    background-color: rgb(146, 141, 141);
-}
-
-.close-icon {
-    width: 20px;
-    height: 20px;
-    background-color:rgb(75, 74, 74);
-    cursor: pointer;
-}
-
-.close-icon:hover {
-    background-color: rgb(184, 182, 182);
 }
 
 @media only screen and (min-width: 450px) {
